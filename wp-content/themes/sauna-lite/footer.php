@@ -7,6 +7,7 @@
  * @package Sauna Lite
  */
 ?>
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <div id="sauna-footer">
     	<div class="container">
             <div class="row">
@@ -27,7 +28,12 @@
     </div>
 	<div class="clearfix"></div> 
     <div class="copyright">
-        <p><?php echo esc_html(get_theme_mod('sauna_lite_footer_copy',__('Sauna WordPress Theme By','sauna-lite'))); ?> <?php echo esc_html(sauna_lite_credit(),'sauna-lite'); ?></p>
+        <p>
+        <?php echo esc_html(get_theme_mod('sauna_lite_footer_copy',__('Sauna WordPress Theme By','sauna-lite'))); ?>        
+         <a href="www.facebook.com" style="margin:5px auto"><i style="color:white;" class="fab fa-facebook-f fa-2x"></i></a>
+         <a href="www.twitter.com" style="margin:5px auto"><i style="color:white" class="fab fa-twitter fa-2x"></i></a>
+         
+        </p>
     </div>
     <div class="clear"></div>
     <?php wp_footer(); ?>
