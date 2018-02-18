@@ -56,6 +56,9 @@ function add_interface_menu() {
 
 	add_menu_page($page_title, $menu_title, $capability, $menu_slug, $mainPage);
 
+
+	add_submenu_page( "NickPlugin", "Settings", "Settings", $capability, "Settings",$mainPage);
+
 }
 
 
