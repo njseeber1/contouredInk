@@ -14,13 +14,36 @@ function Create(){
 
 
 
-	<div ng-app="myApp" ng-controller="myController1">
-	<H4>Current User Email: {{CurrentUser.user_email}}</h4>
-		<ul>
-			<li ng-repeat="x in TestArray">{{x}}</li>
-		</ul>
+<div ng-app="myApp" ng-controller="myController1">
+	<div class="container">
+		<div class="col-md-5" style="margin-bottom:25px">
+			<div class="form-area">  
+				<form role="form">
+				<br style="clear:both">
+							<h3 style="margin-bottom: 25px; text-align: center;">Contact Form</h3>
+							<div class="form-group">
+								<input ng-model="form.Name"type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+							</div>
+							<div class="form-group">
+								<input ng-model="form.Email"type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+							</div>
+							<div class="form-group">
+								<input ng-model="form.Phone"type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
+							</div>
+							<div class="form-group">
+								<input ng-model="form.Subject" type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+							</div>
+							<div class="form-group">
+							<textarea class="form-control"ng-model="form.MessageName" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
+								<span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>                    
+							</div>
+				<button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
+				</form>
+			</div>
+		</div>
+	
 	</div>
-	<?php wp_get_post_categories( ) ?>
+</div>
 
 
 
@@ -44,4 +67,4 @@ function Create(){
 	</script>
 	<?php
 	}
-	add_shortcode('test', 'Create');
+	add_shortcode('contact-form', 'Create');

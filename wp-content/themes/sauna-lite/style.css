@@ -62,7 +62,7 @@ a{
 }
 a:hover{
   text-decoration:none;
-  color:#666;
+  color:#e64f64;
 }
 a:focus,a:hover{
   text-decoration:none !important;
@@ -329,7 +329,7 @@ a.button{
   z-index: 999;
   width: 100%;
   height: auto;
-  background: #bd2771;
+  background: #fff;
   box-shadow: 0 0 6px 4px #333;
 }
 
@@ -403,7 +403,7 @@ a.button{
   position:relative;
 }
 #header .nav ul li a{
-  color:#ffffff;
+  color:#e64f64;
   padding:10px;
   display:block;
 }
@@ -411,7 +411,7 @@ a.button{
   color:#e64f64;
 }
 #header .nav ul li a:active{
-  color:#3890cb;
+  color:#e64f64;
 }
 #header .nav ul ul {
   margin:5% 0 0 0;
@@ -430,17 +430,17 @@ a.button{
   }
   .toggle a{
     width:100%;
-    color:#ffffff;
+    color:#e64f64;
     background:url('images/responsive_menu.png') no-repeat right center #e6adbc;
     padding:10px 10px;
     font-size:16px;
   }
   .toggle a:hover{
-    color:#ffffff;
+    color:#e64f64;
   }
 
   .toggle a.active{
-    color:#ffffff;
+    color:#e64f64;
   }
 
   .nav{
@@ -473,7 +473,7 @@ a.button{
   .nav ul li a{
     padding:5px 10px;
     display:block;
-    color:#ffffff !important;
+    color:#e64f64 !important;
   }
   .nav ul li a:hover{
     color:#ff8a00;
@@ -518,7 +518,7 @@ a.button{
   }
   #header .nav ul li:hover > ul li a{
     padding:7px 0px 7px 10px;
-    color:#ffffff;
+    color:#e64f64;
   }
   #header .nav ul li:hover ul li ul{
     display:none;
@@ -534,11 +534,11 @@ a.button{
   }
 
   #header .nav ul.sub-menu li a:hover{background:#3890cb;
-    color:#fff;
+    color:#e64f64;
   }
   
   #header .nav ul li a{
-    color:#fff;
+    color:#e64f64;
     padding:7px 15px;
     display:block;
     font-size: 17px;
@@ -567,7 +567,7 @@ a.button{
   margin-bottom: 3%;
 }
 .service-title h3 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Montserrat', sans-serif;
   text-transform: none;
   font-size: 50px;
   font-weight: normal;
@@ -609,7 +609,7 @@ a.button{
 #our-services .page-box h4 a {
     font-weight: normal;
     font-size: 30px;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', cursive;
     color: #a1185b;
     letter-spacing: 2px;
 }

@@ -68,7 +68,8 @@
 	position:absolute;
 	/*left:27%;*/
 	top:10%;
-	color:#fff;
+	color:#ffc8cd;
+	font-family: 'Dancing Script', cursive;
 	width:100%;
 	z-index:8;
 	padding: 5px 10px;
@@ -126,7 +127,7 @@ a.nivo-nextNav {
 .nivo-controlNav a.active {
 	font-weight:bold;
     background-position: 0 -21px;
-    background-color: #e6d8ad;
+    background-color: #ffc8cd;
 }
 
 .nivo-directionNav a {

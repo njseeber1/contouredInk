@@ -90,7 +90,7 @@ function NickPlugin_dir() {
 
 
 // Add initialization and activation hooks
-// add_action('init', 'NickPlugin_init');
+ add_action('init', 'NickPlugin_init');
 // add_action( 'admin_menu', 'add_interface_menu' );
 
 // add_action('wp_head', 'NickPlugin_css');
@@ -99,8 +99,8 @@ function NickPlugin_dir() {
 // add_action('admin_print_scripts', 'NickPlugin_css');
 // add_action('admin_print_footer_scripts', 'NickPlugin_admin_js');
 
-// register_activation_hook((ABSPATH . "/wp-content/plugins/Nick-WPPlugin/NickPlugin.php"), 'NickPluginactivation');
-// register_deactivation_hook((ABSPATH . "/wp-content/plugins/Nick-WPPlugin/NickPlugin.php"), 'NickPlugindeactivation');
+ register_activation_hook((ABSPATH . "/wp-content/plugins/Nick-WPPlugin/NickPlugin.php"), 'NickPluginactivation');
+ register_deactivation_hook((ABSPATH . "/wp-content/plugins/Nick-WPPlugin/NickPlugin.php"), 'NickPlugindeactivation');
 
 
 ?>
